@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serpiente</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game-details">
+            <div class="score">Score: 0</div>
+            <div class="high-score">High Score: 0</div>
+        </div>
+        <div class="play-board"></div>
+        <div id="modal" class="gameOver-alert">
+            <p class="modal-content">GAME OVER!</p>
+            <div class="score-final" class="modal-content">Score: 0</div>
+            <div class="high-score-final" class="modal-content">High Score: 0</div>
+            <button class="retry" class="modal-content" onclick="retry()">RETRY</button>
+        </div>
+        <div class="contenedor-pausa">
+            <div class="pausa-content">Paused</div>
+            <button class="pausa-content" onclick="continuar()">Continue</button>
+            <button class="retry" class="ausa-content" onclick="retry()">Retry</button>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
