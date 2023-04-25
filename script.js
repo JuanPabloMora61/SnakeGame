@@ -29,8 +29,8 @@ const handleGameOver = () => {
 
 const pausado = (e) => {
     if(e.key === "Escape"){
-        document.querySelector(".contenedor-pausa").style.display = "flex";
         clearInterval(setIntervalID);
+        document.querySelector(".contenedor-pausa").style.display = "flex";
     }
 }
 
